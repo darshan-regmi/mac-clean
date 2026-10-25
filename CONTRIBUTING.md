@@ -38,6 +38,21 @@ mac-clean deletes files. These rules are not negotiable:
 - New deletion behavior needs a test, including a negative test that proves
   the unsafe case is refused.
 
+## Access and merge policy
+
+Only the maintainer (`@darshan-regmi`) has write access to this repository.
+Everyone else contributes through a fork:
+
+1. Ask the maintainer for a **Read** invitation (the repository is private).
+2. Fork the repository and create a branch in your fork.
+3. Open a pull request against `main`.
+4. The maintainer reviews and merges it.
+
+Do not ask for write access. A pull request from a fork is the supported
+workflow, and only the maintainer can merge into `main`. The
+[`CODEOWNERS`](.github/CODEOWNERS) file requests the maintainer's review
+automatically on every pull request.
+
 ## Pull requests
 
 - Keep changes focused and explain the user-visible behavior in the PR.
