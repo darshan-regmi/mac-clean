@@ -10,7 +10,7 @@
 
 Please do not open a public issue for security problems. Use GitHub's private
 vulnerability reporting on this repository, or email
-[regmidarshan545l@gmail.com](mailto:regmidarshan545l@gmail.com).
+[regmidarshan545@gmail.com](mailto:regmidarshan545l@gmail.com).
 
 Include reproduction steps, the output of `mac-clean --version`, and the
 macOS version. You should receive a response within a few days.
